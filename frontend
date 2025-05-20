@@ -51,7 +51,7 @@ export default function App() {
     try {
       await fetch("/api/auth/logout", {
         method: "POST",
-        credentials: "include"(888***)
+        credentials: "include"
       });
       setIsAuthenticated(false);
       setUser(null);
