@@ -1,6 +1,6 @@
 // episodeGenerator.js - Service for generating episodic content
 const axios = require('axios');
-const config = require('./config');
+const config = require('../config');
 
 /**
  * Class to handle episode generation using Google Gemini API
